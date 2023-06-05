@@ -1,0 +1,27 @@
+---
+import { getCollection } from "astro:content";
+import { Picture } from "@astrojs/image/components";
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import Sectionhead from "@components/sectionhead.astro";
+import Privacy from "@components/privacy.astro";
+---
+
+<Layout title="About">
+  <Container>
+    <Sectionhead>
+      <Fragment slot="title">Privacy Policy</Fragment>
+      <Fragment slot="desc">Ensuring your Privacy</Fragment>
+    </Sectionhead>
+    <div class="abc"><Privacy></Privacy></div>
+    
+
+    
+  </Container>
+</Layout>
+
+<style>
+  .abc {
+    font-size: auto !important;
+  }
+</style>

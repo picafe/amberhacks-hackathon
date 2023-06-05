@@ -4,59 +4,46 @@ import { Icon } from "astro-icon";
 
 const features = [
   {
-    title: "Bring Your Own Framework",
+    title: "Identify",
     description:
-      "Build your site using React, Svelte, Vue, Preact, web components, or just plain ol' HTML + JavaScript.",
-    icon: "bx:bxs-briefcase",
+      "Identify the missing person, whether it be friends, family, or neighbours. Then navigate to the www.reportwithus.com to file a report. ",
+    icon: "mdi:numeric-1-circle-outline",
   },
   {
-    title: "100% Static HTML, No JS",
+    title: "Report",
     description:
-      "Astro renders your entire page to static HTML, removing all JavaScript from your final build by default.",
-    icon: "bx:bxs-window-alt",
+      "Navigate to the report section of the webpage. From here, begin entering: Your Full Name, Your Email Adress, The Full Name Of The Missing Person, Along With Their Last Sighting & Parent Contact Info.",
+    icon: "mdi:numeric-2-circle-outline",
   },
   {
-    title: "On-Demand Components",
+    title: "Submit",
     description:
-      "Need some JS? Astro can automatically hydrate interactive components when they become visible on the page.  ",
-    icon: "bx:bxs-data",
+      "Submit the form to the website, where it will be reviewed, approved and put out to the general consensu (we will also report it to government authoritites, who will broadcast it as an amber alert).",
+    icon: "mdi:numeric-3-circle-outline",
   },
   {
-    title: "Broad Integration",
+    title: "Broadcast",
     description:
-      "Astro supports TypeScript, Scoped CSS, CSS Modules, Sass, Tailwind, Markdown, MDX, and any other npm packages.",
-    icon: "bx:bxs-bot",
-  },
-  {
-    title: "SEO Enabled",
-    description:
-      "Automatic sitemaps, RSS feeds, pagination and collections take the pain out of SEO and syndication. It just works!",
-    icon: "bx:bxs-file-find",
-  },
-  {
-    title: "Community",
-    description:
-      "Astro is an open source project powered by hundreds of contributors making thousands of individual contributions.",
-    icon: "bx:bxs-user",
+      "You will receive an email from us shortly regarding your submission's approval status, along with follow up details.",
+    icon: "mdi:numeric-4-circle-outline",
   },
 ];
 ---
 
 <div class="mt-16 md:mt-0">
   <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
-    Everything you need to start a website
+     Get Started
   </h2>
   <p class="text-lg mt-4 text-slate-600">
-    Astro comes batteries included. It takes the best parts of state-of-the-art
-    tools and adds its own innovations.
+    Here's how you can get started reporting sightings with SafeHarbor
   </p>
 </div>
 
-<div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16">
+<div class="grid sm:grid-cols-2 md:grid-cols-2 mt-16 gap-16">
   {
     features.map((item) => (
       <div class="flex gap-4 items-start">
-        <div class="mt-1 bg-black rounded-full  p-2 w-8 h-8 shrink-0">
+        <div class="mt-1 bg-black rounded-full p-2 w-8 h-8 shrink-0">
           <Icon class="text-white" name={item.icon} />
         </div>
         <div>

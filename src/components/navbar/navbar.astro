@@ -1,35 +1,31 @@
 ---
 import Container from "@components/container.astro";
+import { Picture } from "@astrojs/image/components";
 import Link from "@components/ui/link.astro";
 import Dropdown from "./dropdown.astro";
 import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
+import logo from "assets/logo.png";
 
 const menuitems = [
   {
-    title: "Features",
-    path: "#",
-    children: [
-      { title: "Action", path: "/" },
-      { title: "Another action", path: "#" },
-      { title: "Dropdown Submenu", path: "#" },
-      { title: "404 Page", path: "/404" },
-    ],
+    title: "Home",
+    path: "/",
   },
   {
-    title: "Pricing",
-    path: "/pricing",
-  },
-  {
-    title: "About",
-    path: "/about",
+    title: "Sightings",
+    path: "/sightings",
   },
   {
     title: "Blog",
     path: "/blog",
   },
   {
-    title: "Contact",
-    path: "/contact",
+    title: "Report",
+    path: "/report",
+  },
+  {
+    title: "Privacy Policy",
+    path: "/privacy-policy",
   },
 ];
 ---
@@ -38,10 +34,9 @@ const menuitems = [
   <header class="flex flex-col lg:flex-row justify-between items-center my-5">
     <Astronav>
       <div class="flex w-full lg:w-auto items-center justify-between">
-        <a href="/" class="text-lg"
-          ><span class="font-bold text-slate-800">Astro</span><span
-            class="text-slate-500">ship</span
-          >
+        <a href="/" class="text-lg">
+          <span class="font-bold text-slate-800">Safe</span><span
+            class="text-slate-500">Harbor</span>
         </a>
         <div class="block lg:hidden">
           <MenuIcon class="w-4 h-4 text-gray-800" />

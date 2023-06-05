@@ -1,6 +1,6 @@
 ---
 import { Picture } from "@astrojs/image/components";
-import heroImage from "assets/hero.png";
+import heroImage from "assets/13.png";
 import Link from "@components/ui/link.astro";
 import { Icon } from "astro-icon";
 ---
@@ -21,34 +21,32 @@ import { Icon } from "astro-icon";
   <div>
     <h1
       class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter">
-      Marketing website done with Astro
+      Child Trafficking is a <span class="animate-text bg-gradient-to-r from-red-500 via-black-500 to-orange-500 bg-clip-text text-transparent lg:text-7xl sm: text-5xl font-black "> serious </span> offense 
     </h1>
     <p class="text-lg mt-4 text-slate-600 max-w-xl">
-      Astroship is a starter template for startups, marketing websites & landing
-      pages.<wbr /> Built with Astro.build and TailwindCSS. You can quickly create
-      any website with this starter.
+      Accurately measuring Child Traficking to obtain a clear understanding of its prevalence is challenging. Child trafficking, whether domestic or international in nature, is prohibited by law in Canada. <span class="underline underline-offset-8 font-bold"> With your help, we can stop the problem at it's root.</span> 
     </p>
     <div class="mt-6 flex flex-col sm:flex-row gap-3">
-      <Link
-        href="#"
-        href="https://web3templates.com/templates/astroship-starter-website-template-for-astro"
-        target="_blank"
-        class="flex gap-1 items-center justify-center"
-        rel="noopener">
-        <Icon class="text-white w-5 h-5" name="bx:bxs-cloud-download" />
-
-        Download for Free
-      </Link>
       <Link
         size="lg"
         style="outline"
         rel="noopener"
-        href="https://github.com/surjithctly/astroship"
+        href="blog"
         class="flex gap-1 items-center justify-center"
         target="_blank">
-        <Icon class="text-black w-4 h-4" name="bx:bxl-github" />
-        GitHub Repo
+        Learn More
       </Link>
+      <Link
+        href="#"
+        href="report"
+        target="_blank"
+        class="flex gap-1 items-center justify-center"
+        rel="noopener">
+        <Icon class="text-white w-5 h-5" name="ic:baseline-report"/>
+
+        Report
+      </Link>
+      
     </div>
   </div>
 </main>
