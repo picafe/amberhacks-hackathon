@@ -17,7 +17,7 @@ export default function MediaCard() {
         <a href="#">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Hitori Gotoh</h5>
         </a>
-        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Bocchi the Rock</p>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Bocchi the Rock, whose appearance is characterized by her long pink hair, which is tied with a blue and yellow cube hair accessory on the right side of her head, her aqua-colored eyes, and her fair complexion.</p>
     </div>
 </div>
 
