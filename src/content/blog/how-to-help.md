@@ -6,9 +6,9 @@ image: {
     src: "https://images.pexels.com/photos/1549973/pexels-photo-1549973.jpeg",
     alt: "Child holding camera pointing at camera"
 }
-publishDate: "2022-11-07 15:39"
+publishDate: "2023-06-05 15:39"
 category: "About"
-author: "Connor Lopez"
+author: "Frank H"
 tags: [safety]
 ---
 ![Image of a child on a beach](https://images.pexels.com/photos/16977664/pexels-photo-16977664/free-photo-of-boy-playing-soccer-on-the-beach.jpeg?fit=crop&auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
